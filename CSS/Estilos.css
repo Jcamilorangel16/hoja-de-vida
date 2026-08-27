@@ -1,0 +1,62 @@
+.seccion1{
+    margin: 70px 40px 40px;
+}
+.foto-perfil{
+    width: 300px;
+    height: 400px;
+    border-radius: 10%;
+}
+
+.rectangulo-superior{
+    margin-top: 80px;
+}
+
+.badge-grande{
+    font-size: 1rem;
+    padding: 0.6em 1em;
+    margin-left: 12px;
+}
+
+.seccion-margen{
+    margin: 90px 120px ;
+}
+
+.margen-card{
+    margin-top: 20px;
+}
+
+.badge-grande i {
+    font-size: 1.2em;
+}
+
+.titulo{
+    margin-bottom: 30px;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.badge-grande {
+    background-color: var(--bs-primary) !important;
+}
+
+:root {
+    --bs-primary: #00b4d8;
+    --bs-primary-rgb: 0, 180, 216;
+
+    --bs-dark: #0d1b2a;
+    --bs-dark-rgb: 13, 27, 42;
+}
+
+@media (max-width: 768px) {
+    .seccion-margen,
+    .seccion-margen-idioma {
+        margin: 20px;
+    }
+}
